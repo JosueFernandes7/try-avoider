@@ -1,5 +1,5 @@
 {
-  "name": "tryless-wrap",
+  "name": "try-avoider",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -43,7 +43,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JosueFernandes7/tryless-wrap.git"
+    "url": "git+https://github.com/JosueFernandes7/try-avoider.git"
   },
   "files": [
     "dist"

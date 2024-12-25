@@ -1,6 +1,6 @@
-# tryless-wrap
+# Try-avoider
 
-tryless-wrap is a lightweight TypeScript library designed to simplify error handling in both synchronous and asynchronous functions, eliminating the need for repetitive `try-catch` blocks.
+try-avoider is a lightweight TypeScript library designed to simplify error handling in both synchronous and asynchronous functions, eliminating the need for repetitive `try-catch` blocks.
 
 ## Features
 
@@ -10,7 +10,7 @@ tryless-wrap is a lightweight TypeScript library designed to simplify error hand
 ## Installation
 
 ```bash
-npm install tryless-wrap
+npm install try-avoider
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install tryless-wrap
 Wrap any async function using tryAsync. It takes the function and its arguments and returns an array `[error, result]`.
 
 ```typescript
-import { tryAsync } from "tryless-wrap";
+import { tryAsync } from "try-avoider";
 
 const asyncFunction = async (num: number) => {
   if (num < 0) throw new Error("Negative number!");
@@ -40,7 +40,7 @@ if (error) {
 Wrap any sync function using trySync. It takes the function and its arguments and returns an array `[error, result]`.
 
 ```typescript
-import { trySync } from "tryless-wrap";
+import { trySync } from "try-avoider";
 
 const syncFunction = (num: number) => {
   if (num < 0) throw new Error("Negative number!");
