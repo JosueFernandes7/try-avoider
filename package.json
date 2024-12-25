@@ -43,7 +43,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JosueFernandes7/tryless-wrap.git"
+    "url": "git+https://github.com/JosueFernandes7/tryless-wrap.git"
   },
   "files": [
     "dist"
