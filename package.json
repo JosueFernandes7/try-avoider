@@ -1,0 +1,55 @@
+{
+  "name": "tryless",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "A library to simplify error handling in JavaScript/TypeScript by eliminating try-catch blocks.",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [
+    "error-handling",
+    "typescript",
+    "try-catch",
+    "javascript",
+    "error-management",
+    "async",
+    "sync",
+    "async-error-handling",
+    "sync-error-handling",
+    "promise",
+    "function-wrapper",
+    "typescript-library",
+    "nodejs",
+    "nodejs-library",
+    "wrapper",
+    "utility-library",
+    "try-catch-wrapper",
+    "exceptions",
+    "error-simplification",
+    "error-utilities",
+    "code-cleanup",
+    "functional-programming",
+    "safe-execution",
+    "error",
+    "exception-handling",
+    "clean-code",
+    "simplify-errors",
+    "typescript-utils"
+  ],
+  "author": "Josué de Mendonça Fernandes",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
