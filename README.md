@@ -7,12 +7,6 @@ try-avoider is a lightweight TypeScript library designed to simplify error handl
 - **Async Error Handling**: Wraps async functions and returns `[error, result]`.
 - **Sync Error Handling**: Wraps sync functions and returns `[error, result]`.
 
-## Installation
-
-```bash
-npm install try-avoider
-```
-
 ## Usage
 
 ### Async Functions
